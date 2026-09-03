@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "BÜYÜK İSKENDER (EFSANENİN KADERİ)";
+}
+
+<div class="book-detail-page">
+
+    <div class="book-detail-container">
+
+        <div class="book-detail-cover-wrap">
+
+            <div class="book-detail-cover">
+                <img src="/images/books/kitap_3.jpg"
+                     alt="BÜYÜK İSKENDER (EFSANENİN KADERİ)" />
+            </div>
+
+            <div class="book-nav-buttons">
+
+                <!-- GERİ TUŞU DÜZELTİLDİ: Kitap 1'e yönlendiriyor -->
+                <a class="book-nav-btn"
+                   asp-controller="Library"
+                   asp-action="Kitap2"
+                   aria-label="Önceki kitap"
+                   title="Önceki Kitap">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 5l-7 7 7 7" />
+                    </svg>
+                </a>
+
+                <a class="book-nav-btn"
+                   asp-controller="Library"
+                   asp-action="TurkTarihi"
+                   aria-label="Türk Tarihi kategorisine dön"
+                   title="Türk Tarihi Kategorisine Dön">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 11.5L12 4l8 7.5" />
+                        <path d="M6 10v9a1 1 0 0 0 1 1h3v-5h4v5h3a1 1 0 0 0 1-1v-9" />
+                    </svg>
+                </a>
+
+                <a class="book-nav-btn"
+                   asp-controller="Library"
+                   asp-action="Kitap4"
+                   aria-label="Sonraki kitap"
+                   title="Sonraki Kitap">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="book-detail-info">
+            <h1>BÜYÜK İSKENDER (EFSANENİN KADERİ)</h1>
+
+            <div class="book-info-list">
+
+                <p>
+                    <strong>Yazar:</strong>
+                    CLAUDE MOSSE
+                </p>
+
+                <p>
+                    <strong>Yayınevi:</strong>
+                    Altın kitaplar yayınevi
+                </p>
+
+                <p>
+                    <strong>Basım Tarihi:</strong>
+                    2005
+                </p>
+
+
+                <p>
+                    <strong>Sayfa Sayısı:</strong>
+                    239 Sayfa
+                </p>
+
+                <p>
+                    <strong>Dil:</strong>
+                    Türkçe
+                </p>
+
+                <p>
+                    <strong>Konu:</strong>
+                    Kitap, Makedonya Kralı Büyük İskender'in askeri başarılarını ve Pers İmparatorluğu'nu fethederken izlediği rotayı doğrudan biyografik bir anlatımla sunmanın ötesine geçer.Eski Çağ tarihi uzmanı Fransız tarihçi Claude Mossé, İskender'in yaşamı etrafında zamanla oluşan mythos'u (efsaneyi) ele alır.
+                </p>
+            </div>
+
+        </div>
+
+    </div>   
+</div>
+

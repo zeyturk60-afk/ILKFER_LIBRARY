@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Kütüphane";
+}
+
+
+<div class="library-page">
+
+    <div class="search-section" style="position: relative;">
+        <input type="text" id="searchInput" autocomplete="off" placeholder="Kitap, yazar veya konu ara..." required />
+        <button type="button" id="searchBtn">ARA</button>
+
+        <!-- Önerilerin çıkacağı gizli kutu -->
+        <ul id="suggestionsBox" class="suggestions-list" style="display: none;"></ul>
+    </div>
+    <section class="hero-section">
+
+        <div class="hero-content">
+            <span>İLKFER KÜTÜPHANE</span>
+
+            <h1>
+               Bilgiye Açılan<br />
+                Kapınız
+            </h1>
+
+            <p>
+                Denizcilik tarihinden sanata, arkeolojiden medeniyetlere
+                uzanan geniş koleksiyonumuzla geçmişi keşfedin...
+            </p>
+
+            <a class="collection-button"
+               asp-controller="Library"
+               asp-action="Koleksiyon">
+                Koleksiyonu Keşfet →
+            </a>
+        </div>
+
+     <div class="hero-image">
+    <img src="/images/arka_plan.png/arka_plan.png" alt="Arka Plan">
+</div>
+
+    </section>
+
+ 
+</div>
+
+
